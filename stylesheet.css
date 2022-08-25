@@ -1,0 +1,141 @@
+ h1{
+    margin:0px 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   }
+   
+   h1.line {
+    text-decoration: underline dotted lightblue;
+    background-image: linear-gradient(transparent 70%, lightblue 0%);
+    border-bottom: 5px solid;
+   }
+   main{
+    justify-content: center;
+     
+   }  
+   
+   body{
+    background-image: url(https://kirakukan.itembox.design/product/018/000000001882/000000001882-01-l.jpg?t=20200711080039);
+    font-family: "MS Pゴシック" ;
+    width:80%;
+  }
+
+  .profile-image.float{
+    border-radius: 40%;
+    height: 250px;
+    padding-left:40px;
+    
+  }
+
+  .profile {
+    
+    margin:-20px ;
+    padding:30px;
+    width:100%;
+  }
+
+  .pro{
+    height: 300px;
+    padding:10px;
+    
+  }
+   
+   .side-img {
+     display: inline-block;
+     vertical-align: middle;
+   }
+  
+
+   p.side-txt {
+     display: inline-block;
+     width: 700px;
+     margin-left: 15px;
+     color:white;
+     border-bottom: 5px dotted white;
+     border-top: 5px dotted white;
+   }
+   
+   
+   .side-img img{
+     width: 250px;
+     border-radius: 20px;
+   }
+   
+   p.comment{
+     text-align: center;
+     
+   }
+   .p{
+     display:inline-block;
+     width: 500px;
+     text-align: center;
+   }
+   
+   
+
+   p.more{
+     display: inline-block;
+     width: 700px;
+     margin-left: 50px;
+     color:white;
+     border-bottom: 5px dotted white;
+     border-top: 5px dotted white;
+   }
+
+   p.foot{
+    text-align: center;
+    padding:20px;
+    color:white;
+  }
+
+  
+
+@media screen and (min-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+  p.side-txt {
+    width: 100%;
+    margin-left: 15px;
+    color:white;
+    border-bottom: 5px dotted white;
+    border-top: 5px dotted white;
+  }
+  p.more{
+    display: inline-block;
+    width: 100%;
+    margin-left: 50px;
+    color:white;
+    border-bottom: 5px dotted white;
+    border-top: 5px dotted white; 
+  }
+  .profile {
+    margin: -20px;
+    padding: 30px;
+    width: 100%;
+    display:flex;
+  }
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */ 
+  p.side-txt {
+    width: 100%;
+    margin-left: 15px;
+    color:white;
+    border-bottom: 5px dotted white;
+    border-top: 5px dotted white;
+  }
+  p.more{
+    display: inline-block;
+    width: 100%;
+    margin:10px;
+    color:white;
+    border-bottom: 5px dotted white;
+    border-top: 5px dotted white; 
+  }
+  .profile {
+    margin: -20px;
+    padding: 30px;
+    width: 100%;
+    
+  }
+}
